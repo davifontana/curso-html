@@ -8,6 +8,24 @@
 
     <script>
 
+        function exibirArtigo(id, callbackSucess, callbackError) {
+            if (true) {
+                callbackSucess('FCI JS')
+            } else {
+                callbackError('Fail to recover the data')
+            }
+        }
+        var callbackSucess = function (Title, Bio) {
+            document.write('<h1>' + Title + '</h1>')
+            document.write('<hr/>')
+        }
+
+        var callbackError = function (Error) {
+            document.write('<p><b>Error:</b>' + Error + '</p>')
+        }
+
+        exibirArtigo(1, callbackSucess, callbackError)
+
     </script>
 
 </head>
