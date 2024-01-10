@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>JS3</title>
+    <style>
+        .style1 {
+            background: #FF0000;
+            color: #FFF;
+        }
+
+        .style2 {
+            background-color: darkblue;
+            color: #FFF;
+        }
+    </style>
+
+    <script>
+
+        function modifyClass() {
+            document.getElementById('mensagem').className = 'style2'
+        }
+
+
+    </script>
+</head>
+
+<body>
+
+    <div id="mensagem" class="style1">Modifying Classes</div>
+    <hr>
+    <button type="button" onclick="modifyClass()">Apply modifyClass</button>
+
+</body>
+
+</html>

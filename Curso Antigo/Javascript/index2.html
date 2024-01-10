@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <title>JS</title>
+    <script>
+
+        function mdstyle(bgColor) {
+            document.getElementById('square').style.background = bgColor
+        }
+
+
+
+    </script>
+
+</head>
+
+<body>
+
+    <h3>Manipulando Estilo</h3>
+
+    <button type="button" onclick="mdstyle('#FF0000')">Vermelho</button>
+    <button type="button" onclick="mdstyle('#00FF00')">Verde</button>
+    <button type="button" onclick="mdstyle('#0000FF')">Azul</button>
+
+    <hr>
+
+    <div style="border: solid 1px #000; width: 100px; height: 100px;" id="square"></div>
+
+</body>
+
+
+</html>
