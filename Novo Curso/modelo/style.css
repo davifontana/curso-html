@@ -1,0 +1,68 @@
+* {
+    box-sizing: border-box;
+    outline: 0;
+    color: rgb(0, 0, 0);
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    background-color: rgb(5, 76, 158);
+    font-family: 'Poppins', sans-serif;
+
+}
+
+h1 {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.container {
+    max-width: 640px;
+    margin: 50px auto;
+    padding: 20px;
+    margin-bottom: 10px;
+    background-color: white;
+    border-radius: 5px;
+}
+
+form input,
+form label,
+form button {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+form input {
+    font-size: 24px;
+    height: 50px;
+    padding: 0 20px;
+    border-radius: 5px;
+}
+
+form input:hover {
+    outline: 1px solid rgb(0, 0, 0);
+    border-radius: 5px;
+}
+
+form input {
+    outline: 1px;
+}
+
+form button:hover {
+    outline: 1px solid rgb(0, 0, 0);
+    border-radius: 5px;
+    background-color: rgb(2, 38, 79);
+}
+
+form button {
+    outline: 1px;
+    background-color: rgb(5, 76, 158);
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+    height: 50px;
+    cursor: pointer;
+    border-radius: 5px;
+}
